@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;    
+}
+
+header {
+    padding: 0px 0;
+    background-color: black;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: rgb(159, 152, 152);;
+    text-decoration: underline;
+}
+
+.hr1 {
+    color: white;
+}
+
+.thelasto {
+    margin-left: 0;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-weight: bold;  
+    
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 24px 0;
+}
+
+#history, #persons {
+    background-color: black;
+
+}
+
+.thelast h2,p {
+    color: white;
+}
+
+section .thelast {
+    align-items: flex-start;
+}
+
+.thelast h2 {
+    margin: 10px;
+}
+
+.thelast p {
+    margin: 15px;
+}
+
+section .thelast {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.person-img {
+    padding: 50px;
+    height: 400px;
+    width: 680px;
+}
+
+
+/* centraliza as imagens e textos da seção personagens no meio da tela */
+.personagens {
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.personagens h1 {
+    text-decoration: underline;
+}
+
+.personagens p {
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer h2 {
+    color: white;
+    padding: 10px 0px;
+    
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+footer {
+    padding:16px;
+    background-color: rgb(54, 53, 53);
+}
+
+footer h3 {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+section .thelast p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+section .thelast h2 {
+    font-family: "Bungee", sans-serif;
+}
+
+footer h3, .social-links {
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.social-links {
+    padding: 10px 0;
+}
+
+footer h4{
+    color: white;
+}
+
+form textarea,
+form button, input {
+    display: block;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    background-color: black;
+    color: white;
+    padding: 8px 74px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(45, 44, 44);
+}
+
+
+
+
+
+
+
+
+
+
+
